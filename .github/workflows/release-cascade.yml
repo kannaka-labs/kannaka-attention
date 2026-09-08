@@ -12,7 +12,7 @@ name: release cascade → kannaka-memory
 #
 # Setup (one-time):
 #   1. Create a fine-scoped PAT with `contents: write` +
-#      `pull-requests: write` on NickFlach/kannaka-memory.
+#      `pull-requests: write` on kannaka-labs/kannaka-memory.
 #   2. Add it to THIS repo's secrets as `KANNAKA_CASCADE_PAT`.
 #   3. Merge this workflow. The next `v*` tag push fires the cascade.
 
@@ -50,7 +50,7 @@ jobs:
           gh api \
             --method POST \
             -H "Accept: application/vnd.github+json" \
-            /repos/NickFlach/kannaka-memory/dispatches \
+            /repos/kannaka-labs/kannaka-memory/dispatches \
             -f event_type=kannaka-attention-released \
             -f client_payload[version]="${{ steps.v.outputs.version }}"
           echo "Dispatched kannaka-attention-released → kannaka-memory (version=${{ steps.v.outputs.version }})"

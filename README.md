@@ -12,7 +12,7 @@
 
 `kannaka-attention` is a tiny pure-Rust crate that builds a small candidate set — the **beam** — out of any agent's HRM activity history. The beam is what `Medium::recall_against_ids` scores against, so recall stays O(K) instead of O(N) regardless of how many memories live in the medium. Recency ring + log-stride snapshots + landmark exemplars + an optional salience gate.
 
-[![License](https://img.shields.io/badge/license-MIT-blueviolet)]() [![Rust](https://img.shields.io/badge/rust-2021-orange)]() [![std-only](https://img.shields.io/badge/deps-std%20only-blue)]()
+[![License](https://img.shields.io/badge/license-Space%20Child%20v1.0-blueviolet)]() [![Rust](https://img.shields.io/badge/rust-2021-orange)]() [![std-only](https://img.shields.io/badge/deps-std%20only-blue)]()
 
 ---
 
@@ -124,4 +124,4 @@ host's job — see `kannaka-eye` for the producer side.
 
 ## License
 
-MIT.
+Space Child License v1.0. See [LICENSE](./LICENSE).

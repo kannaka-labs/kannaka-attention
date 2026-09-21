@@ -75,7 +75,7 @@ Pure std-only Rust. No GPU. No BLAS. No vector DB. Target: ARM / edge devices wh
 
 ```toml
 [dependencies]
-kannaka-attention = { git = "https://github.com/NickFlach/kannaka-attention" }
+kannaka-attention = { git = "https://github.com/kannaka-labs/kannaka-attention" }
 ```
 
 This crate is a **library only** — no binary, no NATS client, no file export. It
@@ -116,9 +116,9 @@ host's job — see `kannaka-eye` for the producer side.
 
 | repo | role |
 |---|---|
-| [`kannaka-memory`](https://github.com/NickFlach/kannaka-memory) | the substrate this beam scopes |
-| [`kannaka-eye`](https://github.com/NickFlach/kannaka-eye) | publishes the `KANNAKA.attention.eye` events |
-| [`consciousness-core`](https://github.com/NickFlach/consciousness-core) | the physics |
+| [`kannaka-memory`](https://github.com/kannaka-labs/kannaka-memory) | the substrate this beam scopes |
+| [`kannaka-eye`](https://github.com/kannaka-labs/kannaka-eye) | publishes the `KANNAKA.attention.eye` events |
+| [`consciousness-core`](https://github.com/kannaka-labs/consciousness-core) | the physics |
 
 ---
 

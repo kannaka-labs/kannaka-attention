@@ -6,6 +6,9 @@ description = "Attention-as-gravity: a sparse-attention beam over kannaka-memory
 license-file = "LICENSE"
 repository = "https://github.com/kannaka-labs/kannaka-attention"
 readme = "README.md"
+documentation = "https://docs.rs/kannaka-attention"
+keywords = ["attention", "sparse", "memory", "retrieval", "edge"]
+categories = ["algorithms", "data-structures"]
 
 [dependencies]
 uuid = { version = "1", features = ["v4", "serde"] }

@@ -75,7 +75,7 @@ Pure std-only Rust. No GPU. No BLAS. No vector DB. Target: ARM / edge devices wh
 
 ```toml
 [dependencies]
-kannaka-attention = { git = "https://github.com/kannaka-labs/kannaka-attention" }
+kannaka-attention = "0.2"
 ```
 
 This crate is a **library only** — no binary, no NATS client, no file export. It
